@@ -1,3 +1,11 @@
+Design Gateway uses this folk of aioquic as a reference point for our tests and has added some test files to this repository. We'd like to thank the developers of this open source project. 
+Please visit https://github.com/aiortc/aioquic for the main branch. The modifications are as follows:
+
+-	Replaced ‘examples/templates/index.html’, which is the index html of aioquic, with Design Gateway’s html file. 
+-	Added Design Gateway’s key and certificate files, named tls_key.pem and tls_cert.pem, respectively, in ‘tests/’ directory.
+-	Added an html file, called ‘tests/httpEcho.html’, to show one functionality of the aioquic.
+
+
 aioquic
 =======
 
