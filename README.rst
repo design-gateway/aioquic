@@ -1,10 +1,16 @@
-Design Gateway uses this folk of aioquic as a reference point for our tests and has added some test files to this repository. We'd like to thank the developers of this open source project. 
+Design Gateway - QUIC10GC-IP
+=======
+QUIC Client 10Gbps IP Core (``QUIC10GC-IP``) is specifically engineered to manage the TLS1.3 handshake for a client, encrypt outgoing payload data, decrypt incoming payload data and handle QUIC transport tasks, effectively covering both QUIC and UDP/IP layers.
+
+Design Gateway uses this folk of aioquic as a reference point for our tests and our ``QUIC10GC-IP`` demonstration, with some test files added to the repository. 
+For more details of `QUIC10GC-IP`_, please visit our website `Design-gateway`_.
+
+We'd like to thank the developers of this open source project. 
 Please visit https://github.com/aiortc/aioquic for the main branch. The modifications are as follows:
 
 -	Replaced ‘examples/templates/index.html’, which is the index html of aioquic, with Design Gateway’s html file. 
 -	Added Design Gateway’s key and certificate files, named tls_key.pem and tls_cert.pem, respectively, in ‘tests/’ directory.
 -	Added an html file, called ‘tests/httpEcho.html’, to show one functionality of the aioquic.
-
 
 aioquic
 =======
@@ -155,3 +161,5 @@ License
 .. _RFC 9114: https://datatracker.ietf.org/doc/html/rfc9114
 .. _RFC 9220: https://datatracker.ietf.org/doc/html/rfc9220
 .. _RFC 9297: https://datatracker.ietf.org/doc/html/rfc9297
+.. _Design-gateway: https://design-gateway.com/
+.. _QUIC10GC-IP: https://dgway.com/ASIP_E.html#QUIC
