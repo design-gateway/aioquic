@@ -162,4 +162,4 @@ License
 .. _RFC 9220: https://datatracker.ietf.org/doc/html/rfc9220
 .. _RFC 9297: https://datatracker.ietf.org/doc/html/rfc9297
 .. _Design-gateway: https://design-gateway.com/
-.. _QUIC10GC-IP: https://dgway.com/ASIP_E.html#QUIC
+.. _QUIC10GC-IP: https://dgway.com/en/amd/quic-ip.html
